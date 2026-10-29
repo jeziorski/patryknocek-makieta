@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dziękuję, zgłoszenie dotarło | Patryk Nocek</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/logo.webp">
+<link rel="preload" as="font" type="font/woff2" href="assets/font/subset-SourceSans3-Bold.woff2" crossorigin>
+<style>
+@font-face{font-family:'Source Sans 3';src:url(assets/font/subset-SourceSans3-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url(assets/font/subset-SourceSans3-Bold.woff2) format('woff2');font-weight:700;font-style:normal;font-display:swap}
+</style>
+<link rel="stylesheet" href="assets/wm-zgody/wm-zgody.css">
+<script id="wm-zgody-domyslne">
+/* Makieta: konfiguracja jak z wm_zgody_head() (WM Zgody 1.9.1), bez GTM. W WP wypisuje ją wtyczka. */
+var wmzDL=window.dataLayer=(window.dataLayer||[]);function gtag(){wmzDL.push(arguments);}
+window.wmZgodyCfg={"gtm":"","bv":"1","pv":"1","m":1,"f":0,"b":"makieta"};
+(function(c){
+  gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted',wait_for_update:500});
+  gtag('set','ads_data_redaction',true);
+  var m=document.cookie.match(/(?:^|; )wm_zgoda=([^;]+)/),z=null;
+  try{z=m?JSON.parse(decodeURIComponent(m[1])):null;}catch(e){z=null;}
+  var ok=(window.wmzWazna=function(z){return !!(z&&typeof z==='object'&&z.v===c.bv&&z.pv===c.pv&&z.cat&&typeof z.cat==='object'&&(z.cat.a===0||z.cat.a===1)&&(z.cat.m===0||z.cat.m===1)&&(z.cat.f===undefined||z.cat.f===0||z.cat.f===1)&&(z.id===undefined||/^[a-f0-9]{32}$/.test(z.id))&&z.s===c.s);})(z);
+  if(!ok){window.wmZgoda=null;return;}
+  window.wmZgoda=window.wmZgodyStart=z;document.documentElement.classList.add('wmz-ok');
+  var a=z.cat&&z.cat.a?'granted':'denied',k=c.m&&z.cat&&z.cat.m?'granted':'denied';
+  gtag('consent','update',{analytics_storage:a,ad_storage:k,ad_user_data:k,ad_personalization:k});
+  wmzDL.push({event:'wm_zgody',wm_zgody_analityczne:a,wm_zgody_marketingowe:k});
+})(window.wmZgodyCfg);
+</script>
+<noscript><style>.wm-zgody{display:none!important}</style></noscript>
+<style>
+/* WM Zgody w kolorach marki: tylko zmienne --wmz-* */
+#wm-zgody,.wm-zgody-ikona{--wmz-tlo:#221c18;--wmz-tekst:#fff;--wmz-tekst2:#d8d3cf;--wmz-ramka:#48423E;--wmz-akcent:#FEC200;--wmz-link:#FEC200;--wmz-fokus:#82FF21;--wmz-r:4px;--wmz-btn-tlo:#FEC200;--wmz-btn-tekst:#191411;--wmz-btn2-tekst:#fff;--wmz-btn2-ramka:#48423E;--wmz-btn-r:0;--wmz-font:'Source Sans 3',system-ui,sans-serif;--wmz-cien:0 30px 80px -30px rgba(0,0,0,.9)}
+html:has(#wm-zgody:not([hidden])) .pnvs-mbar{visibility:hidden}
+@media (max-width:900px){html .wm-zgody-ikona{bottom:calc(84px + env(safe-area-inset-bottom,0px))}html:has(.pnvs-mbar.is-hidden) .wm-zgody-ikona{bottom:16px}}
+</style>
+<style>
+/* Strona podziękowania, wariant A (bez kalendarza): potwierdzenie + 2 opcjonalne pytania kwalifikujące. */
+.pnvs-page{--pnvs-bg:#191411;--pnvs-bg2:#221c18;--pnvs-bg3:#2b241f;--pnvs-line:#48423E;--pnvs-field:#8a817a;--pnvs-text2:#d8d3cf;--pnvs-mute:#a9a29c;--pnvs-yellow:#FEC200;--pnvs-green:#82FF21;
+ min-height:100vh;background:var(--pnvs-bg);color:#fff;font:400 18px/1.6 'Source Sans 3',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.pnvs-page *,.pnvs-page *::before,.pnvs-page *::after{box-sizing:border-box}
+.pnvs-wrap{width:min(100% - 32px,760px);margin-inline:auto}
+.pnvs-top{padding:22px 0}
+.pnvs-top{background:#000}
+.pnvs-top .pnvs-wrap{display:flex;align-items:center;min-height:76px}
+.pnvs-brand{display:inline-flex;align-items:center;gap:14px;font-size:20px;font-weight:700;line-height:1.05;text-transform:uppercase}
+.pnvs-brand b{display:block;color:var(--pnvs-yellow)}
+.pnvs-logo{width:50px;height:50px;border-radius:50%;display:block;box-shadow:0 0 0 3px var(--pnvs-yellow)}
+.pnvs-main{padding:40px 0 80px}
+.pnvs-ok{display:grid;place-items:center;width:72px;height:72px;margin-bottom:24px;background:var(--pnvs-yellow)}
+.pnvs-ok svg{width:34px;height:34px;stroke:#191411}
+.pnvs-h1{margin:0;font-size:clamp(2rem,4.6vw,3.2rem);font-weight:700;line-height:1.05;text-transform:uppercase}
+.pnvs-lead{margin:18px 0 0;font-size:clamp(1.1rem,1.6vw,1.25rem);color:var(--pnvs-text2)}
+.pnvs-lead b{color:#fff}
+.pnvs-prep{margin:28px 0 0;padding:22px 24px;border:1px solid var(--pnvs-line);border-radius:.5rem}
+.pnvs-prep h2{margin:0 0 10px;font-size:1.15rem;font-weight:700}
+.pnvs-prep ul{margin:0;padding-left:20px;color:var(--pnvs-text2)}
+.pnvs-q{margin:28px 0 0;padding:28px;border:1px solid var(--pnvs-line);border-radius:.5rem}
+.pnvs-q h2{margin:0;font-size:1.35rem;font-weight:700;line-height:1.3}
+.pnvs-q-sub{margin:6px 0 0;font-size:16px;color:var(--pnvs-mute)}
+.pnvs-fs{margin:22px 0 0;padding:0;border:0}
+.pnvs-fs legend{margin-bottom:10px;padding:0;font-weight:700}
+.pnvs-opts{display:flex;flex-wrap:wrap;gap:10px}
+.pnvs-opt{position:relative}
+.pnvs-opt input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.pnvs-opt span{display:inline-flex;align-items:center;min-height:48px;padding:10px 18px;border-radius:0;background:#000;box-shadow:inset 0 0 0 1px #fff;font-size:16px;font-weight:700;text-transform:uppercase;transition:box-shadow .2s,background-color .2s}
+.pnvs-opt input:hover+span{box-shadow:inset 0 0 0 1.5px #7a716a}
+.pnvs-opt input:checked+span{background:var(--pnvs-yellow);color:#191411;box-shadow:none;font-weight:700}
+.pnvs-opt input:focus-visible+span{outline:3px solid var(--pnvs-green);outline-offset:3px}
+.pnvs-btn{display:inline-flex;align-items:center;justify-content:center;min-height:58px;margin-top:24px;padding:14px 32px;border:0;border-radius:0;text-transform:uppercase;background:var(--pnvs-yellow);color:#191411;font-weight:700;font-size:17px;line-height:1.2;font-family:inherit;cursor:pointer}
+.pnvs-btn:focus-visible,.pnvs-link:focus-visible{outline:3px solid var(--pnvs-green);outline-offset:3px}
+.pnvs-saved{margin:16px 0 0;font-weight:700;color:var(--pnvs-green)}
+.pnvs-saved[hidden],.pnvs-q-err[hidden]{display:none}
+.pnvs-q-err{margin:16px 0 0;font-weight:700;color:#ff8aa3}
+.pnvs-foot{padding:28px 0 40px;border-top:1px solid var(--pnvs-line);font-size:15px;color:var(--pnvs-mute)}
+.pnvs-foot .pnvs-wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px}
+.pnvs-foot a{color:var(--pnvs-text2);text-underline-offset:3px}
+.pnvs-foot nav{display:flex;gap:18px}
+.pnvs-yt{margin:32px 0 0;color:var(--pnvs-text2)}
+.pnvs-link{color:var(--pnvs-yellow);text-decoration:underline;text-underline-offset:3px}
+.pnvs-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pnvs-note{margin:40px 0 0;padding:14px 16px;border-radius:12px;background:#2b241f;font-size:14px;color:var(--pnvs-mute)}
+@media (max-width:560px){.pnvs-q{padding:22px 18px}.pnvs-btn{width:100%}}
+@media (prefers-reduced-motion:reduce){.pnvs-page *{transition:none!important}}
+</style>
+</head>
+<body>
+<!-- WM Zgody 1.9.1: znaczniki jak z wm_zgody_baner(), teksty z presetu pl (bez kategorii funkcjonalnej). W WP renderuje wtyczka. -->
+<div class="wm-zgody" id="wm-zgody" data-wmz-b="makieta" role="region" aria-labelledby="wm-zgody-t">
+  <div class="wm-zgody-in">
+    <p class="wm-zgody-t" id="wm-zgody-t">Szanujemy Twoją prywatność</p>
+    <p class="wm-zgody-p">Używamy plików cookies niezbędnych do działania strony. Za Twoją zgodą korzystamy też z cookies analitycznych (Google Analytics), żeby wiedzieć, co ulepszać, i marketingowych (piksel Meta, Google Ads), żeby mierzyć skuteczność reklam. Możesz zaakceptować wszystkie, odrzucić wszystkie albo wybrać samodzielnie. <a href="index.html#polityka-prywatnosci">Polityka prywatności</a>.</p>
+    <form class="wm-zgody-kat" id="wm-zgody-kat" hidden>
+      <label class="wm-zgody-k" for="wm-zgody-k-n"><input type="checkbox" id="wm-zgody-k-n" name="n" checked disabled><span><b>Niezbędne</b>Działanie strony, bezpieczeństwo i zapamiętanie Twojego wyboru w tym banerze. Zawsze włączone.</span></label>
+      <label class="wm-zgody-k" for="wm-zgody-k-a"><input type="checkbox" id="wm-zgody-k-a" name="a"><span><b>Analityczne</b>Google Analytics 4 (Google): statystyki odwiedzin i korzystania ze strony. Dane mogą trafiać poza EOG na podstawie decyzji o adekwatności albo innych zabezpieczeń wskazanych przez dostawcę.</span></label>
+      <label class="wm-zgody-k" for="wm-zgody-k-m"><input type="checkbox" id="wm-zgody-k-m" name="m"><span><b>Marketingowe</b>Piksel Meta (Meta Platforms Ireland) i Google Ads (Google): pomiar skuteczności reklam i dopasowanie reklam do osób, które odwiedziły stronę. Dane mogą trafiać poza EOG, m.in. do USA.</span></label>
+    </form>
+    <div class="wm-zgody-btns">
+      <button type="button" class="wm-zgody-b" data-wm="nie">Odrzucam wszystkie</button>
+      <button type="button" class="wm-zgody-b" data-wm="tak">Akceptuję wszystkie</button>
+      <button type="button" class="wm-zgody-b wm-zgody-b2" data-wm="ustawienia" aria-expanded="false" aria-controls="wm-zgody-kat">Ustawienia</button>
+      <button type="button" class="wm-zgody-b wm-zgody-b2" data-wm="zapisz" hidden>Zapisz wybór</button>
+    </div>
+  </div>
+</div>
+<button type="button" class="wm-zgody-ikona" data-wm="otworz" aria-label="Ustawienia cookies" title="Ustawienia cookies" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 4 4 0 0 1-4-4 4 4 0 0 1-4-4 1 1 0 0 0-1-1Z"/><circle cx="8.5" cy="10.5" r="1"/><circle cx="12" cy="15.5" r="1"/><circle cx="16" cy="13" r="1"/></svg></button>
+<div class="pnvs-page">
+<header class="pnvs-top"><div class="pnvs-wrap"><span class="pnvs-brand"><img class="pnvs-logo" src="assets/logo.webp" width="96" height="96" alt=""><span>Patryk<b>Nocek</b></span></span></div></header>
+<main class="pnvs-main">
+ <div class="pnvs-wrap">
+  <span class="pnvs-ok" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
+  <h1 class="pnvs-h1" id="pnvs-h1">Dziękuję<span id="pnvs-name"></span>. Zgłoszenie dotarło.</h1>
+  <p class="pnvs-lead">Zadzwonię <b>[w ciągu X godzin w dni robocze]</b> z numeru <b>508 209 789</b>. Porozmawiamy o Twojej inwestycji i ustalimy, czy optymalizacja ma sens.</p>
+
+  <div class="pnvs-prep">
+   <h2>Żeby rozmowa była konkretna, przygotuj:</h2>
+   <ul>
+    <li>link do dokumentacji projektu (jeśli już ją masz),</li>
+    <li>informację, na jakim etapie jest inwestycja.</li>
+   </ul>
+  </div>
+
+  <!-- Pytania kwalifikujące są opcjonalne: zgłoszenie jest już zapisane. W WP: drugi formularz Fluent Forms albo aktualizacja wpisu. -->
+  <form class="pnvs-q" id="pnvs-q" aria-labelledby="pnvs-q-h" novalidate>
+   <h2 id="pnvs-q-h">Dwa szybkie pytania, żebym przygotował się do rozmowy</h2>
+   <p class="pnvs-q-sub">Opcjonalne. Wystarczy kliknąć.</p>
+   <fieldset class="pnvs-fs">
+    <legend>Jaka jest powierzchnia PUM inwestycji?</legend>
+    <div class="pnvs-opts">
+     <label class="pnvs-opt"><input type="radio" name="pum" value="ponizej-1000"><span>poniżej 1000 m²</span></label>
+     <label class="pnvs-opt"><input type="radio" name="pum" value="1000-3000"><span>1000 do 3000 m²</span></label>
+     <label class="pnvs-opt"><input type="radio" name="pum" value="powyzej-3000"><span>powyżej 3000 m²</span></label>
+    </div>
+   </fieldset>
+   <fieldset class="pnvs-fs">
+    <legend>Na jakim etapie jest projekt?</legend>
+    <div class="pnvs-opts">
+     <label class="pnvs-opt"><input type="radio" name="etap" value="koncepcja"><span>koncepcja</span></label>
+     <label class="pnvs-opt"><input type="radio" name="etap" value="projekt-budowlany"><span>projekt budowlany</span></label>
+     <label class="pnvs-opt"><input type="radio" name="etap" value="pozwolenie"><span>pozwolenie na budowę</span></label>
+     <label class="pnvs-opt"><input type="radio" name="etap" value="budowa"><span>budowa w toku</span></label>
+    </div>
+   </fieldset>
+   <button class="pnvs-btn" type="submit">Zapisz odpowiedzi</button>
+   <p class="pnvs-q-err" id="pnvs-q-err" role="alert" hidden>Wybierz odpowiedź na co najmniej jedno pytanie.</p>
+   <p class="pnvs-saved" id="pnvs-saved" role="status" hidden>Dziękuję, mam to. Do usłyszenia.</p>
+  </form>
+
+  <p class="pnvs-yt">W międzyczasie zajrzyj na mój <a class="pnvs-link" href="https://www.youtube.com/@PatrykNocek" target="_blank" rel="noopener">kanał na YouTube<span class="pnvs-sr"> (otwiera się w nowej karcie)</span></a>.</p>
+  <p class="pnvs-note">Makieta: w WordPressie na tej stronie uruchamia się zdarzenie Lead (Piksel Meta) i generate_lead (GA4), tylko po poprawnym wysłaniu formularza. Strona ma noindex.</p>
+ </div>
+</main>
+<footer class="pnvs-foot"><div class="pnvs-wrap"><p>© <span data-gl-part="dyn-rok">2026</span> Paulina Narloch, NIP 7282839130</p><nav aria-label="Dokumenty"><a href="index.html#polityka-prywatnosci">Polityka prywatności</a><a href="#ustawienia-cookies" class="wm-zgody-link">Ustawienia cookies</a></nav></div></footer>
+</div>
+<script>
+(()=>{'use strict';
+/* Lead tylko raz, po wysłaniu formularza: dane w sessionStorage są kasowane po odczycie, odświeżenie nie liczy drugiego zgłoszenia. */
+let lead=null;try{lead=JSON.parse(sessionStorage.getItem('pnvs-lead')||'null');sessionStorage.removeItem('pnvs-lead');}catch(e){}
+window.dataLayer=window.dataLayer||[];
+if(lead){if(lead.imie)document.getElementById('pnvs-name').textContent=', '+lead.imie;window.dataLayer.push({event:'generate_lead',form_location:lead.miejsce||''});}
+const f=document.getElementById('pnvs-q'),ok=document.getElementById('pnvs-saved');
+const err=document.getElementById('pnvs-q-err');
+f.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(f);if(!d.get('pum')&&!d.get('etap')){ok.hidden=true;err.hidden=false;f.querySelector('input').focus();return;}err.hidden=true;window.dataLayer.push({event:'lead_qualified',pum_range:d.get('pum')||'',etap:d.get('etap')||''});ok.hidden=false;});
+})();
+</script>
+<script src="assets/wm-zgody/wm-zgody.min.js" defer></script>
+</body>
+</html>

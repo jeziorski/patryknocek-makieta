@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bezpłatna konsultacja - optymalizacja projektu deweloperskiego | Patryk Nocek</title>
+<meta name="description" content="Obejrzyj film i sprawdź, ile pieniędzy leży w Twoim projekcie. Optymalizacja inwestycji wielorodzinnych powyżej 1000 m² PUM. Odrzucasz? Nie płacisz.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/logo.webp">
+<link rel="preload" as="font" type="font/woff2" href="assets/font/subset-SourceSans3-Bold.woff2" crossorigin>
+<style>
+@font-face{font-family:'Source Sans 3';src:url(assets/font/subset-SourceSans3-Regular.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Source Sans 3';src:url(assets/font/subset-SourceSans3-Bold.woff2) format('woff2');font-weight:700;font-style:normal;font-display:swap}
+</style>
+<link rel="preload" as="image" href="assets/plakat-vsl.webp" fetchpriority="high">
+<link rel="stylesheet" href="assets/wm-zgody/wm-zgody.css">
+<script id="wm-zgody-domyslne">
+/* Makieta: konfiguracja jak z wm_zgody_head() (WM Zgody 1.9.1), bez GTM. W WP wypisuje ją wtyczka. */
+var wmzDL=window.dataLayer=(window.dataLayer||[]);function gtag(){wmzDL.push(arguments);}
+window.wmZgodyCfg={"gtm":"","bv":"1","pv":"1","m":1,"f":0,"b":"makieta"};
+(function(c){
+  gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',functionality_storage:'granted',personalization_storage:'granted',security_storage:'granted',wait_for_update:500});
+  gtag('set','ads_data_redaction',true);
+  var m=document.cookie.match(/(?:^|; )wm_zgoda=([^;]+)/),z=null;
+  try{z=m?JSON.parse(decodeURIComponent(m[1])):null;}catch(e){z=null;}
+  var ok=(window.wmzWazna=function(z){return !!(z&&typeof z==='object'&&z.v===c.bv&&z.pv===c.pv&&z.cat&&typeof z.cat==='object'&&(z.cat.a===0||z.cat.a===1)&&(z.cat.m===0||z.cat.m===1)&&(z.cat.f===undefined||z.cat.f===0||z.cat.f===1)&&(z.id===undefined||/^[a-f0-9]{32}$/.test(z.id))&&z.s===c.s);})(z);
+  if(!ok){window.wmZgoda=null;return;}
+  window.wmZgoda=window.wmZgodyStart=z;document.documentElement.classList.add('wmz-ok');
+  var a=z.cat&&z.cat.a?'granted':'denied',k=c.m&&z.cat&&z.cat.m?'granted':'denied';
+  gtag('consent','update',{analytics_storage:a,ad_storage:k,ad_user_data:k,ad_personalization:k});
+  wmzDL.push({event:'wm_zgody',wm_zgody_analityczne:a,wm_zgody_marketingowe:k});
+})(window.wmZgodyCfg);
+</script>
+<noscript><style>.wm-zgody{display:none!important}</style></noscript>
+<style>
+/* WM Zgody w kolorach marki: tylko zmienne --wmz-* */
+#wm-zgody,.wm-zgody-ikona{--wmz-tlo:#221c18;--wmz-tekst:#fff;--wmz-tekst2:#d8d3cf;--wmz-ramka:#48423E;--wmz-akcent:#FEC200;--wmz-link:#FEC200;--wmz-fokus:#82FF21;--wmz-r:4px;--wmz-btn-tlo:#FEC200;--wmz-btn-tekst:#191411;--wmz-btn2-tekst:#fff;--wmz-btn2-ramka:#48423E;--wmz-btn-r:0;--wmz-font:'Source Sans 3',system-ui,sans-serif;--wmz-cien:0 30px 80px -30px rgba(0,0,0,.9)}
+html:has(#wm-zgody:not([hidden])) .pnvs-mbar{visibility:hidden}
+@media (max-width:900px){html .wm-zgody-ikona{bottom:calc(84px + env(safe-area-inset-bottom,0px))}html:has(.pnvs-mbar.is-hidden) .wm-zgody-ikona{bottom:16px}}
+</style>
+<style>
+/* Makieta landingu VSL Patryk Nocek. Język wizualny z optymalizacja.patryknocek.pl: kanciaste przyciski i pola,
+   żółte belki-równoległoboki z białymi narożnikami, kreskowane tła, wersaliki. Wszystkie style pod .pnvs-page (GLAI). */
+.pnvs-page{--pnvs-bg:#191411;--pnvs-bg2:#221c18;--pnvs-line:#48423E;--pnvs-text:#fff;--pnvs-text2:#e6e1dd;--pnvs-mute:#a9a29c;--pnvs-yellow:#FEC200;--pnvs-green:#82FF21;--pnvs-red:#EE0142;--pnvs-r:.5rem;--pnvs-max:1296px;
+ --pnvs-hatch:repeating-linear-gradient(-55deg,rgba(255,255,255,.16) 0 1px,transparent 1px 7px);
+ position:relative;background:var(--pnvs-bg);color:var(--pnvs-text);font:400 18px/1.67 'Source Sans 3',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
+.pnvs-page *,.pnvs-page *::before,.pnvs-page *::after{box-sizing:border-box}
+.pnvs-page img{max-width:100%;height:auto;display:block}
+.pnvs-wrap{width:min(100% - 32px,var(--pnvs-max));margin-inline:auto}
+.pnvs-sec{padding:96px 0}
+/* kreskowany pas przy lewej krawędzi, jak na stronie głównej */
+.pnvs-page::before{content:"";position:absolute;left:0;top:76px;bottom:0;width:76px;background:var(--pnvs-hatch);border-right:1px solid rgba(255,255,255,.08);pointer-events:none}
+.pnvs-h1,.pnvs-h2,.pnvs-h3{margin:0;font-weight:700;line-height:1.05;text-transform:uppercase;text-wrap:balance}
+.pnvs-h1{font-size:clamp(2.2rem,4.6vw,4.4rem)}
+.pnvs-h2{font-size:clamp(1.8rem,3.4vw,2.9rem)}
+.pnvs-h3{font-size:clamp(1.25rem,1.8vw,1.6rem);line-height:1.12}
+.pnvs-hl{color:var(--pnvs-yellow)}
+.pnvs-lead{margin:0;font-size:clamp(1.1rem,1.5vw,1.25rem);color:var(--pnvs-text2)}
+.pnvs-p{margin:0;color:var(--pnvs-text2)}
+.pnvs-link{color:var(--pnvs-yellow);text-decoration:underline;text-underline-offset:3px}
+.pnvs-link:hover{color:#fff}
+
+/* Tytuł sekcji jak na stronie głównej: żółty trapez, na nim przesunięta warstwa szarych kresek,
+   czarny napis na wierzchu i cienka biała ramka wystająca nad i pod belkę */
+.pnvs-title{position:relative;isolation:isolate;width:fit-content;max-width:min(100%,900px);margin:0 auto 72px;padding:22px 0}
+.pnvs-band{position:relative;display:block;margin:0;padding:.38em 1em .38em 1.7em;color:#000;font-size:clamp(1.6rem,3.4vw,2.9rem);font-weight:700;line-height:1.02;text-align:center;text-transform:uppercase;text-wrap:balance}
+.pnvs-band::before{content:"";position:absolute;inset:0;z-index:-2;background:var(--pnvs-yellow);clip-path:polygon(0 0,100% 0,100% 100%,9% 100%)}
+.pnvs-title::before{content:"";position:absolute;z-index:-1;left:7%;right:-6%;top:calc(22px + 18%);bottom:-2px;background:repeating-linear-gradient(-45deg,rgba(130,120,110,.42) 0 1px,transparent 1px 6px);pointer-events:none}
+.pnvs-title::after{content:"";position:absolute;z-index:1;left:12%;right:6%;top:0;bottom:0;border:1px solid #fff;pointer-events:none}
+
+/* Nagłówek etapu: kreskowany równoległobok z białym tekstem */
+.pnvs-stage{width:min(100%,640px);margin:0 auto 28px;padding:16px 24px 16px 48px;background:var(--pnvs-hatch);text-align:center;text-transform:uppercase;font-weight:700;line-height:1.15;clip-path:polygon(0 0,100% 0,100% 100%,9% 100%)}
+.pnvs-stage small{display:block;font-size:18px}
+.pnvs-stage b{display:block;font-size:clamp(1.4rem,2.4vw,1.9rem)}
+.pnvs-stage span{display:block;font-size:17px}
+
+/* Przyciski: prostokątne, żółte, wersaliki */
+.pnvs-btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:62px;padding:16px 34px;border:0;border-radius:0;background:var(--pnvs-yellow);color:#191411;font-family:inherit;font-size:17px;font-weight:700;line-height:1.2;letter-spacing:.02em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background-color .2s}
+.pnvs-btn:hover{background:#ffd23f}
+.pnvs-btn:focus-visible,.pnvs-play:focus-visible,.pnvs-link:focus-visible,.pnvs-mini:focus-visible{outline:3px solid var(--pnvs-green);outline-offset:3px}
+.pnvs-btn svg{width:20px;height:20px;flex:none}
+
+/* Nagłówek strony: logo z żółtym pierścieniem, PATRYK / NOCEK */
+.pnvs-top{position:relative;z-index:3;background:#000}
+.pnvs-top .pnvs-wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
+.pnvs-brand{display:inline-flex;align-items:center;gap:14px;font-size:20px;font-weight:700;line-height:1.05;text-transform:uppercase}
+.pnvs-brand b{display:block;color:var(--pnvs-yellow)}
+.pnvs-page .pnvs-logo{width:50px;height:50px;border-radius:50%;box-shadow:0 0 0 3px var(--pnvs-yellow)}
+.pnvs-top-note{margin:0;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.pnvs-top-note b{color:var(--pnvs-yellow)}
+
+/* S1 Hero z filmem */
+.pnvs-hero{position:relative;padding:64px 0 80px;isolation:isolate}
+.pnvs-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url(assets/plakat-vsl.webp) center/cover no-repeat;opacity:.3}
+.pnvs-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(25,20,17,.6) 0%,rgba(25,20,17,.9) 60%,var(--pnvs-bg) 100%)}
+.pnvs-hero-head{max-width:1040px;margin:0 auto 40px;text-align:center}
+.pnvs-eyebrow{display:inline-block;margin:0 0 18px;padding:6px 14px;border:1px solid #fff;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.pnvs-hero .pnvs-h1 .pnvs-hl{display:block}
+.pnvs-hero-head .pnvs-lead{margin:22px auto 0;max-width:60ch}
+/* Film w ramce okna, jak „Obejrzyj intro” na stronie głównej */
+.pnvs-win{max-width:1040px;margin:0 auto;padding:0 8px 8px;background:#2f2925;border-radius:4px}
+.pnvs-win-bar{display:flex;align-items:center;justify-content:center;position:relative;min-height:56px}
+.pnvs-win-dots{position:absolute;left:16px;display:flex;gap:8px}
+.pnvs-win-dots i{width:16px;height:16px;border-radius:50%;background:#e5374b}
+.pnvs-win-dots i:nth-child(2){background:#f5b800}
+.pnvs-win-dots i:nth-child(3){background:#1e9a52}
+.pnvs-win-url{display:inline-flex;align-items:center;gap:10px;padding:6px 18px 6px 8px;border:1px solid #fff;border-radius:999px;font-size:15px;font-weight:700;text-transform:uppercase}
+.pnvs-page .pnvs-win-url img{width:24px;height:24px;border-radius:50%}
+.pnvs-video{position:relative;aspect-ratio:16/9;overflow:hidden;background:#000}
+.pnvs-play{position:absolute;inset:0;display:grid;place-items:center;width:100%;height:100%;padding:0;border:0;background:#0f0c0a;color:#fff;cursor:pointer;font-family:inherit}
+.pnvs-page .pnvs-play-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.45;filter:blur(2px) saturate(.8)}
+.pnvs-page .pnvs-play-who{position:absolute;left:3%;bottom:0;height:94%;width:auto;filter:drop-shadow(0 20px 40px rgba(0,0,0,.6))}
+.pnvs-play-txt{position:relative;display:flex;flex-direction:column;align-items:center;margin-left:32%;text-align:center}
+.pnvs-play-txt b{display:block;font-size:clamp(1.5rem,4.4vw,4rem);font-weight:700;line-height:1;text-transform:uppercase;text-shadow:3px 3px 0 #000}
+.pnvs-play-txt b span{display:block;color:var(--pnvs-yellow)}
+.pnvs-play-txt .pnvs-play-btn{display:inline-flex;align-items:center;gap:12px;margin-top:22px;padding:16px 30px;background:var(--pnvs-yellow);color:#191411;font-size:clamp(.95rem,1.4vw,1.1rem);font-weight:700;text-transform:uppercase}
+.pnvs-play-btn svg{width:30px;height:30px}
+.pnvs-play:hover .pnvs-play-btn{background:#ffd23f}
+.pnvs-play-len{position:absolute;right:12px;top:12px;padding:3px 10px;background:rgba(0,0,0,.7);font-size:13px;font-weight:700}
+.pnvs-video video,.pnvs-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.pnvs-video-note{max-width:1040px;margin:10px auto 0;font-size:13px;color:var(--pnvs-mute);text-align:center}
+.pnvs-facts{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1040px;margin:28px auto 0}
+.pnvs-fact{padding:20px 22px;border:1px solid var(--pnvs-line);border-radius:var(--pnvs-r);background:rgba(25,20,17,.7);text-align:center}
+.pnvs-fact b{display:block;font-size:clamp(1.6rem,2.8vw,2.4rem);font-weight:700;line-height:1;text-transform:uppercase;color:var(--pnvs-yellow)}
+.pnvs-fact span{display:block;margin-top:6px;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}
+.pnvs-hero-cta{display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:36px}
+.pnvs-hero-cta small{font-size:16px;font-weight:700;text-transform:uppercase}
+.pnvs-hero-cta small b{color:var(--pnvs-yellow)}
+
+/* S2 i S5 Formularz: czarne pola z białą ramką, bez zaokrągleń */
+.pnvs-form-sec{padding:24px 0 96px}
+.pnvs-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding:48px;border:1px solid var(--pnvs-line);border-radius:var(--pnvs-r)}
+.pnvs-form-intro .pnvs-lead{margin-top:18px}
+.pnvs-steps{display:grid;gap:18px;margin:28px 0 0;padding:0;list-style:none}
+.pnvs-steps li{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start;color:var(--pnvs-text2)}
+.pnvs-steps li i{font-style:normal;font-size:46px;font-weight:700;line-height:.9;color:var(--pnvs-yellow)}
+.pnvs-steps li b{display:block;color:#fff;font-weight:700;text-transform:uppercase}
+.pnvs-ff-h{margin:0 0 22px;font-size:1.4rem;font-weight:700;line-height:1.15;text-transform:uppercase;text-align:center}
+.pnvs-ff .ff-el-group{margin:0 0 16px}
+.pnvs-ff .ff-el-input--label label{display:block;margin:0 0 6px;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:#fff}
+.pnvs-ff .ff-el-input--label.asterisk-right label::after{content:" *";color:var(--pnvs-yellow)}
+.pnvs-ff .ff-el-form-control{width:100%;min-height:58px;padding:12px 16px;border:1px solid #fff;border-radius:0;background:#000;color:#fff;font-family:inherit;font-size:18px;line-height:1.4;transition:border-color .2s,box-shadow .2s}
+.pnvs-ff .ff-el-form-control::placeholder{color:#9c948e;opacity:1}
+.pnvs-ff .ff-el-form-control:focus{outline:none;border-color:var(--pnvs-yellow);box-shadow:0 0 0 3px rgba(254,194,0,.35)}
+.pnvs-ff .ff-el-is-error .ff-el-form-control{border-color:#ff5c7f;box-shadow:0 0 0 3px rgba(238,1,66,.3)}
+.pnvs-ff .error.text-danger{display:block;margin-top:7px;font-size:15px;font-weight:700;color:#ff8aa3}
+.pnvs-ff .pnvs-clause p{margin:0;font-size:14px;line-height:1.5;color:var(--pnvs-text2)}
+.pnvs-ff .ff_submit_btn_wrapper{margin-top:20px}
+.pnvs-ff .ff-btn-submit{width:100%}
+.pnvs-ff .ff-btn-submit[aria-busy="true"]{opacity:.75;cursor:progress}
+.pnvs-ff-note{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;margin:14px 0 0;font-size:15px;font-weight:700;text-transform:uppercase;text-align:center}
+.pnvs-ff-note span{display:inline-flex;align-items:center;gap:7px}
+.pnvs-ff-note svg{width:16px;height:16px;flex:none;stroke:var(--pnvs-yellow)}
+
+/* Karty: ciemne, cienka ramka, małe zaokrąglenie */
+.pnvs-card{padding:32px;border:1px solid var(--pnvs-line);border-radius:var(--pnvs-r)}
+.pnvs-card .pnvs-h3{margin-bottom:14px}
+
+/* S3 Efekty */
+.pnvs-proof-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:stretch}
+.pnvs-quote{display:flex;flex-direction:column;margin:0}
+.pnvs-page .pnvs-quote img{width:40px;margin-bottom:18px}
+.pnvs-quote blockquote{margin:0;font-size:clamp(1.2rem,1.9vw,1.5rem);font-weight:700;line-height:1.35}
+.pnvs-quote figcaption{margin:16px 0 26px;color:var(--pnvs-text2)}
+.pnvs-quote-res{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin-top:auto;padding-top:22px;border-top:1px solid var(--pnvs-line)}
+.pnvs-quote-res b{font-size:clamp(2.4rem,4.6vw,3.6rem);font-weight:700;line-height:1;color:var(--pnvs-yellow)}
+.pnvs-quote-res span{font-weight:700;text-transform:uppercase}
+.pnvs-mini{position:relative;display:block;width:100%;min-height:280px;padding:0;border:1px solid var(--pnvs-line);border-radius:var(--pnvs-r);overflow:hidden;background:#000;color:#fff;cursor:pointer;text-align:left;font-family:inherit}
+.pnvs-page .pnvs-mini img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.45}
+.pnvs-mini-txt{position:absolute;left:20px;right:20px;bottom:16px}
+.pnvs-mini-txt b{display:block;font-size:1.2rem;line-height:1.15;text-transform:uppercase}
+.pnvs-mini-txt span{font-size:15px;color:var(--pnvs-text2)}
+.pnvs-mini-play{position:absolute;left:20px;top:16px;display:inline-flex;align-items:center;gap:8px;padding:10px 16px;background:var(--pnvs-yellow);color:#191411;font-size:14px;font-weight:700;text-transform:uppercase}
+.pnvs-mini-play svg{width:20px;height:20px}
+.pnvs-eq-row{font-size:clamp(1.3rem,2vw,1.7rem);font-weight:700;line-height:1.15;text-transform:uppercase}
+.pnvs-eq{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr;gap:12px 40px;align-items:center}
+.pnvs-eq .pnvs-eq-row{margin:0}
+.pnvs-eq .pnvs-p{max-width:62ch}
+
+.pnvs-press{grid-column:1/-1;margin-top:24px}
+.pnvs-press-h{margin:0 0 16px;font-size:1.2rem;font-weight:700;text-transform:uppercase;text-align:center}
+.pnvs-press-list{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0;padding:0;list-style:none}
+.pnvs-press-list .pnvs-card{display:flex;flex-direction:column;justify-content:space-between;gap:14px;padding:24px}
+.pnvs-press-list blockquote{margin:0;font-size:1.1rem;font-weight:700;line-height:1.35}
+.pnvs-press-list p{margin:0;padding-top:12px;border-top:1px solid var(--pnvs-line);font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--pnvs-yellow)}
+.pnvs-page .pnvs-mini[data-yt] img{opacity:.8}
+.pnvs-mini[data-yt]::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(0,0,0,.92) 72%,#000 100%)}
+.pnvs-mini-txt,.pnvs-mini-play{z-index:1}
+.pnvs-mini iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* S4 Proces */
+.pnvs-steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0 0 56px;padding:0;list-style:none}
+.pnvs-step{display:grid;grid-template-columns:auto 1fr;gap:18px;padding:28px 24px}
+.pnvs-step>i{font-style:normal;font-size:64px;font-weight:700;line-height:.85;color:var(--pnvs-yellow)}
+.pnvs-step .pnvs-h3{font-size:1.4rem;margin-bottom:10px}
+.pnvs-when{margin-top:8px}
+.pnvs-when-h{margin:0 0 24px;font-size:clamp(1.2rem,2vw,1.6rem);font-weight:700;text-transform:uppercase;text-align:center}
+.pnvs-time{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.pnvs-time div{padding:18px 14px;border:1px solid var(--pnvs-line);border-radius:var(--pnvs-r);text-align:center;font-weight:700;text-transform:uppercase;line-height:1.2}
+.pnvs-time b{display:block;margin-top:8px;font-size:14px;letter-spacing:.04em}
+.pnvs-time .is-best{border-color:var(--pnvs-yellow);background:var(--pnvs-yellow);color:#191411}
+.pnvs-time .is-ok b{color:var(--pnvs-yellow)}
+.pnvs-time .is-late{color:var(--pnvs-mute)}
+.pnvs-time .is-late b{color:#ff8aa3}
+.pnvs-who{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;margin-top:56px}
+.pnvs-page .pnvs-who img{width:170px}
+.pnvs-cred{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0;padding:0;list-style:none}
+.pnvs-cred li{padding:6px 12px;border:1px solid #fff;font-size:14px;font-weight:700;text-transform:uppercase}
+/* Pas CTA, jak „To nie jest audyt…” na stronie głównej */
+.pnvs-cta-band{position:relative;isolation:isolate;padding:72px 0}
+.pnvs-cta-band::before{content:"";position:absolute;inset:0;z-index:-2;background:url(assets/plakat-vsl.webp) center/cover;filter:grayscale(1)}
+.pnvs-cta-band::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(25,20,17,.78)}
+.pnvs-cta-band .pnvs-wrap{display:flex;align-items:center;justify-content:space-between;gap:32px}
+.pnvs-cta-band .pnvs-h2{font-size:clamp(1.8rem,3.6vw,3.2rem);max-width:30ch}
+
+/* S5 Gwarancja */
+.pnvs-guar{padding:96px 0}
+.pnvs-guar-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1040px;margin:0 auto 48px}
+.pnvs-guar-grid .pnvs-card>i{display:block;margin-bottom:10px;font-style:normal;font-size:15px;font-weight:700;letter-spacing:.04em;color:var(--pnvs-yellow)}
+.pnvs-guar-lead{max-width:62ch;margin:0 auto 40px;text-align:center}
+.pnvs-guar .pnvs-ff{max-width:560px;margin:0 auto;padding:32px;border:1px solid var(--pnvs-line);border-radius:var(--pnvs-r)}
+.pnvs-sec-cta{display:flex;justify-content:center;margin-top:48px}
+
+/* Stopka */
+.pnvs-foot{position:relative;padding:28px 0;background:#000;font-size:15px;color:var(--pnvs-mute)}
+.pnvs-foot .pnvs-wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 28px}
+.pnvs-foot p{margin:0}
+.pnvs-foot nav{display:flex;flex-wrap:wrap;gap:8px 22px}
+.pnvs-foot a{color:var(--pnvs-text2);text-underline-offset:3px}
+
+/* Przypięty CTA na telefonie */
+.pnvs-mbar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:none;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:#000;box-shadow:0 -1px 0 var(--pnvs-line);transition:transform .25s ease}
+.pnvs-mbar .pnvs-btn{width:100%;min-height:52px;font-size:16px}
+.pnvs-mbar.is-hidden{transform:translateY(110%)}
+
+/* Wejścia przy przewijaniu (tylko z JS) */
+.pnvs-js .pnvs-rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.pnvs-js .pnvs-rv.is-in{opacity:1;transform:none}
+
+/* Etykiety tylko dla czytników ekranu (pola mają placeholdery jak na stronie głównej) */
+.pnvs-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pnvs-ff .ff-el-form-control{text-align:center}
+.pnvs-ff .ff-el-form-control::placeholder{color:#d8d3cf}
+.pnvs-ff .ff-el-tc{display:grid;grid-template-columns:22px 1fr;gap:12px;align-items:start;font-size:14px;line-height:1.5;color:var(--pnvs-text2);cursor:pointer}
+.pnvs-ff .ff-el-tc input{width:22px;height:22px;margin:1px 0 0;border-radius:0;accent-color:var(--pnvs-yellow);cursor:pointer}
+.pnvs-req{color:var(--pnvs-yellow)}
+.pnvs-call{margin:18px 0 0;padding-top:16px;border-top:1px solid var(--pnvs-line);font-size:16px;text-align:center}
+.pnvs-call-link{display:inline-flex;align-items:center;gap:8px;margin-left:6px;color:var(--pnvs-yellow);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.pnvs-call-link svg{width:18px;height:18px}
+.pnvs-call-link:focus-visible,.pnvs-mbar-tel:focus-visible,.pnvs-modal-x:focus-visible{outline:3px solid var(--pnvs-green);outline-offset:3px}
+
+/* Pasek na telefonie: formularz albo od razu telefon */
+.pnvs-mbar{gap:8px}
+.pnvs-mbar .pnvs-btn{flex:1}
+.pnvs-mbar-tel{display:grid;place-items:center;flex:none;width:58px;min-height:52px;background:#fff;color:#000}
+.pnvs-mbar-tel svg{width:24px;height:24px}
+
+/* Polityka prywatności w oknie */
+.pnvs-modal{width:min(100% - 24px,820px);max-height:min(88vh,900px);max-height:min(88dvh,900px);padding:0;border:1px solid #fff;border-radius:0;background:var(--pnvs-bg);color:var(--pnvs-text);overflow:hidden;flex-direction:column}
+.pnvs-modal[open]{display:flex}
+.pnvs-modal::backdrop{background:rgba(0,0,0,.75)}
+.pnvs-modal-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 16px 16px 28px;background:var(--pnvs-yellow);color:#000}
+.pnvs-modal-h{margin:0;font-size:clamp(1.3rem,2.4vw,1.8rem);font-weight:700;line-height:1.1;text-transform:uppercase}
+.pnvs-modal-x{display:grid;place-items:center;flex:none;width:48px;height:48px;padding:0;border:0;background:#000;color:#fff;cursor:pointer}
+.pnvs-modal-x svg{width:22px;height:22px}
+.pnvs-modal-body{padding:8px 28px 24px;overflow-y:auto;overscroll-behavior:contain;font-size:16px;line-height:1.6;color:var(--pnvs-text2)}
+.pnvs-modal-body h3{margin:24px 0 8px;color:#fff;font-size:1.05rem;font-weight:700;text-transform:uppercase}
+.pnvs-modal-body p,.pnvs-modal-body ul{margin:0 0 10px}
+.pnvs-modal-body ul{padding-left:20px}
+.pnvs-modal-meta{margin-top:14px!important;font-size:14px;color:var(--pnvs-mute)}
+.pnvs-modal-foot{padding:16px 28px;border-top:1px solid var(--pnvs-line)}
+.pnvs-modal-foot .pnvs-btn{min-height:52px}
+html:has(.pnvs-modal[open]){overflow:hidden}
+@media (max-width:1460px){.pnvs-page::before{display:none}}
+@media (max-width:900px){
+ .pnvs-sec{padding:64px 0}
+ .pnvs-hero{padding:40px 0 56px}
+ .pnvs-top-note{display:none}
+ .pnvs-title{margin-bottom:44px;padding:14px 0}
+ .pnvs-band{padding:.42em .7em .42em 1.3em}
+ .pnvs-title::before{top:calc(14px + 18%);right:-3%}
+ .pnvs-form-grid{grid-template-columns:1fr;gap:32px;padding:24px 16px}
+ .pnvs-proof-grid,.pnvs-guar-grid,.pnvs-eq,.pnvs-press-list{grid-template-columns:1fr}
+ .pnvs-mini{aspect-ratio:16/9;min-height:0}
+ .pnvs-mini[data-yt]{aspect-ratio:4/3}
+ .pnvs-page .pnvs-mini[data-yt] img{object-position:58% 20%}
+ .pnvs-steps3{grid-template-columns:1fr;margin-bottom:40px}
+ .pnvs-time{grid-template-columns:1fr 1fr;gap:10px}
+ .pnvs-card{padding:24px 20px}
+ .pnvs-cta-band .pnvs-wrap{flex-direction:column;align-items:flex-start}
+ .pnvs-guar{padding:64px 0}
+ .pnvs-guar .pnvs-ff{padding:24px 16px}
+ .pnvs-mbar{display:flex}
+ .pnvs-modal-head{padding:12px 12px 12px 18px}
+ .pnvs-modal-body{padding:4px 18px 18px}
+ .pnvs-modal-foot{padding:12px 18px}
+ .pnvs-foot{padding-bottom:96px}
+}
+@media (max-width:560px){
+ .pnvs-facts{grid-template-columns:1fr;gap:10px}
+ .pnvs-fact{display:flex;align-items:baseline;gap:14px;padding:14px 16px;text-align:left}
+ .pnvs-fact b{flex:none;font-size:1.5rem}
+ .pnvs-fact span{margin:0}
+ .pnvs-win{padding:0 4px 4px}
+ .pnvs-win-bar{min-height:44px}
+ .pnvs-win-dots i{width:11px;height:11px}
+ .pnvs-win-url{font-size:12px;padding:4px 12px 4px 4px}
+ .pnvs-page .pnvs-win-url img{width:18px;height:18px}
+ .pnvs-page .pnvs-play-who{left:-6%;height:90%}
+ .pnvs-play-txt{margin-left:38%}
+ .pnvs-play-txt .pnvs-play-btn{margin-top:12px;padding:10px 14px}
+ .pnvs-play-btn svg{width:22px;height:22px}
+ .pnvs-play-len{display:none}
+ .pnvs-btn{width:100%;padding:14px 18px}
+ .pnvs-who{grid-template-columns:1fr}
+ .pnvs-page .pnvs-who img{width:140px}
+}
+@media (prefers-reduced-motion:reduce){
+ .pnvs-page *,.pnvs-page *::before,.pnvs-page *::after{transition:none!important;animation:none!important}
+ .pnvs-js .pnvs-rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<!-- WM Zgody 1.9.1: znaczniki jak z wm_zgody_baner(), teksty z presetu pl (bez kategorii funkcjonalnej). W WP renderuje wtyczka. -->
+<div class="wm-zgody" id="wm-zgody" data-wmz-b="makieta" role="region" aria-labelledby="wm-zgody-t">
+  <div class="wm-zgody-in">
+    <p class="wm-zgody-t" id="wm-zgody-t">Szanujemy Twoją prywatność</p>
+    <p class="wm-zgody-p">Używamy plików cookies niezbędnych do działania strony. Za Twoją zgodą korzystamy też z cookies analitycznych (Google Analytics), żeby wiedzieć, co ulepszać, i marketingowych (piksel Meta, Google Ads), żeby mierzyć skuteczność reklam. Możesz zaakceptować wszystkie, odrzucić wszystkie albo wybrać samodzielnie. <a href="#polityka-prywatnosci" data-polityka>Polityka prywatności</a>.</p>
+    <form class="wm-zgody-kat" id="wm-zgody-kat" hidden>
+      <label class="wm-zgody-k" for="wm-zgody-k-n"><input type="checkbox" id="wm-zgody-k-n" name="n" checked disabled><span><b>Niezbędne</b>Działanie strony, bezpieczeństwo i zapamiętanie Twojego wyboru w tym banerze. Zawsze włączone.</span></label>
+      <label class="wm-zgody-k" for="wm-zgody-k-a"><input type="checkbox" id="wm-zgody-k-a" name="a"><span><b>Analityczne</b>Google Analytics 4 (Google): statystyki odwiedzin i korzystania ze strony. Dane mogą trafiać poza EOG na podstawie decyzji o adekwatności albo innych zabezpieczeń wskazanych przez dostawcę.</span></label>
+      <label class="wm-zgody-k" for="wm-zgody-k-m"><input type="checkbox" id="wm-zgody-k-m" name="m"><span><b>Marketingowe</b>Piksel Meta (Meta Platforms Ireland) i Google Ads (Google): pomiar skuteczności reklam i dopasowanie reklam do osób, które odwiedziły stronę. Dane mogą trafiać poza EOG, m.in. do USA.</span></label>
+    </form>
+    <div class="wm-zgody-btns">
+      <button type="button" class="wm-zgody-b" data-wm="nie">Odrzucam wszystkie</button>
+      <button type="button" class="wm-zgody-b" data-wm="tak">Akceptuję wszystkie</button>
+      <button type="button" class="wm-zgody-b wm-zgody-b2" data-wm="ustawienia" aria-expanded="false" aria-controls="wm-zgody-kat">Ustawienia</button>
+      <button type="button" class="wm-zgody-b wm-zgody-b2" data-wm="zapisz" hidden>Zapisz wybór</button>
+    </div>
+  </div>
+</div>
+<button type="button" class="wm-zgody-ikona" data-wm="otworz" aria-label="Ustawienia cookies" title="Ustawienia cookies" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 4 4 0 0 1-4-4 4 4 0 0 1-4-4 1 1 0 0 0-1-1Z"/><circle cx="8.5" cy="10.5" r="1"/><circle cx="12" cy="15.5" r="1"/><circle cx="16" cy="13" r="1"/></svg></button>
+<div class="pnvs-page">
+
+<header class="pnvs-top">
+ <div class="pnvs-wrap">
+  <span class="pnvs-brand"><img class="pnvs-logo" src="assets/logo.webp" width="96" height="96" alt=""><span>Patryk<b>Nocek</b></span></span>
+  <p class="pnvs-top-note">Wynagrodzenie <b>za efekt</b></p>
+ </div>
+</header>
+
+<main>
+<!-- S1: film (VSL). Nagłówek do dopasowania do tekstu reklamy (message match). -->
+<section class="wp-section alignfull pnvs-hero" aria-labelledby="pnvs-h1">
+ <div class="wp-content-wrap pnvs-wrap">
+  <div class="pnvs-hero-head">
+   <p class="pnvs-eyebrow">Inwestycje wielorodzinne powyżej 1000 m² PUM</p>
+   <h1 class="pnvs-h1" id="pnvs-h1"><span class="pnvs-hl">Wyciągnij więcej zysku</span> z projektu, zanim ruszy budowa</h1>
+   <p class="pnvs-lead">Obejrzyj film i zobacz, gdzie w projekcie budowlanym uciekają pieniądze. Bez zmiany cen mieszkań i bez obniżania standardu.</p>
+  </div>
+
+  <!-- Odtwarzacz: w WP Fluent Player albo odtwarzacz Bunny Stream, ładowany dopiero po kliknięciu (fasada). -->
+  <div class="pnvs-win">
+   <div class="pnvs-win-bar" aria-hidden="true">
+    <span class="pnvs-win-dots"><i></i><i></i><i></i></span>
+    <span class="pnvs-win-url"><img src="assets/logo.webp" width="96" height="96" alt="">Patryk Nocek · optymalizacja</span>
+   </div>
+   <div class="pnvs-video" id="pnvs-vsl" data-gl-part="vsl" data-bunny-library="[ID BIBLIOTEKI BUNNY]" data-bunny-video="[ID FILMU BUNNY]" data-video-title="VSL optymalizacja">
+    <button class="pnvs-play" type="button" aria-label="Obejrzyj film z napisami: odtwórz">
+     <img class="pnvs-play-bg" src="assets/plakat-vsl.webp" width="1280" height="720" alt="" fetchpriority="high">
+     <img class="pnvs-play-who" src="assets/nocek-640.webp" width="640" height="662" alt="">
+     <span class="pnvs-play-len">[długość filmu]</span>
+     <span class="pnvs-play-txt">
+      <b><span>Obejrzyj film</span>z napisami</b>
+      <span class="pnvs-play-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4z" fill="currentColor"/></svg>Odtwórz</span>
+     </span>
+    </button>
+   </div>
+  </div>
+  <p class="pnvs-video-note">Makieta: po kliknięciu odtwarza się intro z obecnej strony. Docelowo VSL z Bunny Stream.</p>
+
+  <ul class="pnvs-facts" aria-label="Fakty">
+   <li class="pnvs-fact"><b>ponad 6 mln zł</b><span>dodatkowego zysku w jednym projekcie</span></li>
+   <li class="pnvs-fact"><b>1000</b><span>wybudowanych lokali</span></li>
+   <li class="pnvs-fact"><b>200+</b><span>optymalizacji w checkliście</span></li>
+  </ul>
+
+  <div class="pnvs-hero-cta">
+   <a class="pnvs-btn" href="#konsultacja" data-cta="hero">Umów bezpłatną konsultację</a>
+   <small>Odrzucasz? <b>Nie płacisz!</b></small>
+  </div>
+ </div>
+</section>
+
+<!-- S2: formularz (główna konwersja) -->
+<section class="wp-section alignfull pnvs-form-sec" id="konsultacja" aria-labelledby="pnvs-f1-h">
+ <div class="wp-content-wrap pnvs-wrap">
+  <div class="pnvs-form-grid pnvs-rv">
+   <div class="pnvs-form-intro">
+    <h2 class="pnvs-h2" id="pnvs-f1-h">Chcesz sprawdzić, <span class="pnvs-hl">ile pieniędzy</span> leży w Twoim projekcie?</h2>
+    <p class="pnvs-lead">Zostaw imię i numer. Oddzwonię [w ciągu X godzin w dni robocze] i razem ustalimy, czy optymalizacja ma sens w Twojej inwestycji.</p>
+    <ol class="pnvs-steps">
+     <li><i>1</i><span><b>Krótka rozmowa</b>Pytam o inwestycję i etap projektu.</span></li>
+     <li><i>2</i><span><b>Link do dokumentacji</b>Analizuję ją do 14 dni.</span></li>
+     <li><i>3</i><span><b>Prezentacja optymalizacji</b>Każdą z wadami i zaletami, decyzja należy do Ciebie.</span></li>
+    </ol>
+   </div>
+   <div class="pnvs-ff" data-gl-part="ff-zgloszenie">
+    <!-- Fluent Forms: znaczniki zgodne z renderem wtyczki (fluentform, ff-el-group, ff-el-form-control). -->
+    <div class="fluentform ff-default fluentform_wrapper_1">
+     <form class="frm-fluent-form fluent_form_1 ff-el-form-top ff-form-loaded" data-form_id="1" data-form-location="po-filmie" action="dziekujemy.html" method="post" novalidate aria-labelledby="pnvs-f1-h">
+      <div class="ff-el-group ff-el-is-required">
+       <div class="ff-el-input--label asterisk-right pnvs-sr"><label for="ff_1_imie">Imię</label></div>
+       <div class="ff-el-input--content"><input class="ff-el-form-control" type="text" name="imie" id="ff_1_imie" autocomplete="given-name" placeholder="Imię *" required aria-required="true"></div>
+      </div>
+      <div class="ff-el-group ff-el-is-required">
+       <div class="ff-el-input--label asterisk-right pnvs-sr"><label for="ff_1_tel">Numer telefonu</label></div>
+       <div class="ff-el-input--content"><input class="ff-el-form-control" type="tel" name="telefon" id="ff_1_tel" inputmode="tel" autocomplete="tel" placeholder="Numer telefonu *" required aria-required="true"></div>
+      </div>
+      <div class="ff-el-group ff-el-is-required pnvs-consent">
+       <label class="ff-el-tc"><input type="checkbox" name="zgoda" value="tak" required aria-required="true"><span>Akceptuję, że dane podane w formularzu będą przetwarzane w celu obsługi zapytania. Administratorem danych jest firma Paulina Narloch NIP 7282839130. Szczegóły dotyczące przetwarzania danych oraz przysługujących praw znajdują się w <a class="pnvs-link" href="#polityka-prywatnosci" data-polityka>Polityce Prywatności</a>. <b class="pnvs-req" aria-hidden="true">*</b></span></label>
+      </div>
+      <div class="ff_submit_btn_wrapper">
+       <button class="ff-btn ff-btn-submit pnvs-btn" type="submit">Umów bezpłatną konsultację</button>
+      </div>
+      <p class="pnvs-ff-note"><span><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Konsultacja jest bezpłatna</span></p>
+      <p class="pnvs-call">Wolisz od razu porozmawiać? <a class="pnvs-call-link" href="tel:+48508209789" data-cta="telefon-formularz"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>508 209 789</a></p>
+     </form>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!-- S3: efekty (dowód) -->
+<section class="wp-section alignfull pnvs-sec" aria-labelledby="pnvs-h-proof">
+ <div class="wp-content-wrap pnvs-wrap">
+  <div class="pnvs-title"><h2 class="pnvs-band" id="pnvs-h-proof">Uważasz, że Twój projekt jest już optymalny?</h2></div>
+  <div class="pnvs-proof-grid">
+   <figure class="pnvs-card pnvs-quote pnvs-rv">
+    <img src="assets/quote.svg" width="44" height="34" alt="">
+    <blockquote>„Patryk, ten projekt był już optymalizowany przez mój zespół. Nie sądzę, abyś coś jeszcze znalazł”.</blockquote>
+    <figcaption>Klient, budynek na 180 mieszkań</figcaption>
+    <div class="pnvs-quote-res"><b>+6 mln zł</b><span>dodatkowego zysku dla inwestora</span></div>
+   </figure>
+    <!-- Rekomendacja wideo: film publiczny na kanale Patryka (youtube.com/watch?v=u7bV5rwtP6w), wczytywany dopiero po kliknięciu (youtube-nocookie). Docelowo plik w Bunny Stream. -->
+    <button class="pnvs-mini pnvs-rv" type="button" data-video-title="Rekomendacja Daniel Siwiec" data-yt="u7bV5rwtP6w" aria-label="Odtwórz rekomendację wideo Daniela Siwca: +500 m² PUM bez zmiany bryły budynku">
+     <img src="assets/siwiec-rekomendacja.webp" width="960" height="540" alt="" loading="lazy">
+     <span class="pnvs-mini-play"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4z" fill="currentColor"/></svg>Rekomendacja</span>
+     <span class="pnvs-mini-txt"><b>+500 m² PUM bez zmiany bryły budynku</b><span>Daniel Siwiec o współpracy z Patrykiem</span></span>
+    </button>
+    <div class="pnvs-card pnvs-eq pnvs-rv">
+     <p class="pnvs-eq-row"><span class="pnvs-hl">-5% kosztów +5% przychodów</span> = czysty zysk</p>
+     <p class="pnvs-p">Te pieniądze nie znikają w kolejnych kosztach, tylko podnoszą Twoją marżę i budują poduszkę bezpieczeństwa na wypadek zmian przepisów czy cen.</p>
+    </div>
+    <!-- Źródła: pewnylokal.pl (artykuł z 15.10.2026, odc. 63), dewelopuj.pl/day (18.09.2026), optymalizacja.patryknocek.pl (sekcja Doświadczenie). -->
+    <div class="pnvs-press pnvs-rv">
+     <h3 class="pnvs-press-h">Branża o Patryku</h3>
+     <ul class="pnvs-press-list" role="list">
+      <li class="pnvs-card"><blockquote>„Specjalista zajmujący się optymalizacją inwestycji mieszkaniowych”</blockquote><p>Pewny Lokal, podcast, odcinek 63</p></li>
+      <li class="pnvs-card"><blockquote>„Inżynier budownictwa, który generuje dodatkowy zysk w inwestycjach deweloperskich”</blockquote><p>Dewelopuj Day 2026, prowadzący konferencję</p></li>
+      <li class="pnvs-card"><blockquote>Prelegent dla deweloperów</blockquote><p>PZFD, Akademia Dewelopera, Forum Dewelopera, ekspert w telewizji</p></li>
+     </ul>
+    </div>
+  </div>
+ </div>
+</section>
+
+<!-- S4: proces i moment -->
+<section class="wp-section alignfull pnvs-sec pnvs-proc" aria-labelledby="pnvs-h-proc">
+ <div class="wp-content-wrap pnvs-wrap">
+  <div class="pnvs-title"><h2 class="pnvs-band" id="pnvs-h-proc">Proces zaprojektowany pod dewelopera</h2></div>
+
+  <p class="pnvs-stage"><small>Etap 1</small><b>Analiza dokumentacji</b><span>(do 14 dni)</span></p>
+  <ol class="pnvs-steps3" role="list">
+   <li class="pnvs-card pnvs-step pnvs-rv"><i>1</i><div><h3 class="pnvs-h3">Udostępniasz dokumentację</h3><p class="pnvs-p">Wystarczy link do dokumentacji projektowej.</p></div></li>
+   <li class="pnvs-card pnvs-step pnvs-rv"><i>2</i><div><h3 class="pnvs-h3">Analiza dokumentacji</h3><p class="pnvs-p">Sprawdzam przychody i koszty według checklisty ponad 200 optymalizacji.</p></div></li>
+   <li class="pnvs-card pnvs-step pnvs-rv"><i>3</i><div><h3 class="pnvs-h3">Prezentacja optymalizacji</h3><p class="pnvs-p">Online lub stacjonarnie. Każdą propozycję osobno, z wadami i zaletami.</p></div></li>
+  </ol>
+
+  <p class="pnvs-stage"><small>Etap 2</small><b>Kalkulacja i decyzja</b></p>
+  <ol class="pnvs-steps3" role="list">
+   <li class="pnvs-card pnvs-step pnvs-rv"><i>1</i><div><h3 class="pnvs-h3">Wstępna decyzja</h3><p class="pnvs-p">Wybierasz rekomendacje, które Cię interesują.</p></div></li>
+   <li class="pnvs-card pnvs-step pnvs-rv"><i>2</i><div><h3 class="pnvs-h3">Kalkulacja</h3><p class="pnvs-p">Pokazuję, jakie efekty da każda optymalizacja.</p></div></li>
+   <li class="pnvs-card pnvs-step pnvs-rv"><i>3</i><div><h3 class="pnvs-h3">Akceptacja</h3><p class="pnvs-p">Decydujesz o każdej optymalizacji osobno.</p></div></li>
+  </ol>
+
+  <div class="pnvs-when pnvs-rv">
+   <p class="pnvs-when-h">Największy potencjał optymalizacji jest na <span class="pnvs-hl">etapie projektu</span></p>
+   <div class="pnvs-time">
+    <div class="is-ok">Zaawansowana koncepcja<b>możemy zaczynać</b></div>
+    <div class="is-best">Projekt budowlany<b>idealny moment</b></div>
+    <div class="is-best">Pozwolenie na budowę<b>idealny moment</b></div>
+    <div class="is-late">Rozpoczęcie budowy<b>za późno</b></div>
+   </div>
+  </div>
+
+  <div class="pnvs-who pnvs-rv">
+   <img src="assets/nocek-640.webp" width="640" height="662" alt="Patryk Nocek w kasku i kamizelce na budowie" loading="lazy">
+   <div>
+    <h3 class="pnvs-h3">Analizuje Patryk Nocek</h3>
+    <ul class="pnvs-cred">
+     <li>inżynier budownictwa z uprawnieniami</li>
+     <li>1000 wybudowanych lokali</li>
+     <li>prelegent PZFD</li>
+     <li>YouTube: 37 tys. subskrybentów</li>
+    </ul>
+   </div>
+  </div>
+ </div>
+<div class="pnvs-cta-band">
+ <div class="pnvs-wrap">
+  <p class="pnvs-h2"><span class="pnvs-hl">To nie jest audyt.</span> To proces odzyskiwania pieniędzy na etapie projektu</p>
+  <a class="pnvs-btn" href="#konsultacja" data-cta="proces">Umów bezpłatną konsultację</a>
+ </div>
+</div>
+</section>
+
+
+<!-- S5: gwarancja + drugi formularz -->
+<section class="wp-section alignfull pnvs-guar" id="gwarancja" aria-labelledby="pnvs-h-guar">
+ <div class="wp-content-wrap pnvs-wrap">
+  <div class="pnvs-title"><h2 class="pnvs-band" id="pnvs-h-guar">Odrzucasz? Nie płacisz!</h2></div>
+  <p class="pnvs-lead pnvs-guar-lead">Moje wynagrodzenie zależy od efektu: dzielimy się dodatkowym zyskiem.</p>
+  <!-- DO-POTWIERDZENIA (Patryk): czy na landingu wspominamy o opłacie za analizę i w tym brzmieniu; kwoty nie podajemy bez jego decyzji. -->
+  <div class="pnvs-guar-grid">
+   <div class="pnvs-card pnvs-rv"><i>01</i><h3 class="pnvs-h3">Akceptujesz optymalizacje</h3><p class="pnvs-p">Opłata za analizę jest zaliczana na poczet wynagrodzenia, więc nie jest dodatkowym kosztem.</p></div>
+   <div class="pnvs-card pnvs-rv"><i>02</i><h3 class="pnvs-h3">Odrzucasz wszystkie optymalizacje</h3><p class="pnvs-p">Opłata za analizę jest zwracana w całości.</p></div>
+  </div>
+  <div class="pnvs-ff pnvs-rv" data-gl-part="ff-zgloszenie-2">
+   <h3 class="pnvs-ff-h">Sprawdźmy Twój projekt, zanim ruszy budowa</h3>
+   <div class="fluentform ff-default fluentform_wrapper_1">
+    <form class="frm-fluent-form fluent_form_1 ff-el-form-top ff-form-loaded" data-form_id="1" data-form-location="gwarancja" action="dziekujemy.html" method="post" novalidate aria-labelledby="pnvs-h-guar">
+      <div class="ff-el-group ff-el-is-required">
+       <div class="ff-el-input--label asterisk-right pnvs-sr"><label for="ff_2_imie">Imię</label></div>
+       <div class="ff-el-input--content"><input class="ff-el-form-control" type="text" name="imie" id="ff_2_imie" autocomplete="given-name" placeholder="Imię *" required aria-required="true"></div>
+      </div>
+      <div class="ff-el-group ff-el-is-required">
+       <div class="ff-el-input--label asterisk-right pnvs-sr"><label for="ff_2_tel">Numer telefonu</label></div>
+       <div class="ff-el-input--content"><input class="ff-el-form-control" type="tel" name="telefon" id="ff_2_tel" inputmode="tel" autocomplete="tel" placeholder="Numer telefonu *" required aria-required="true"></div>
+      </div>
+      <div class="ff-el-group ff-el-is-required pnvs-consent">
+       <label class="ff-el-tc"><input type="checkbox" name="zgoda" value="tak" required aria-required="true"><span>Akceptuję, że dane podane w formularzu będą przetwarzane w celu obsługi zapytania. Administratorem danych jest firma Paulina Narloch NIP 7282839130. Szczegóły dotyczące przetwarzania danych oraz przysługujących praw znajdują się w <a class="pnvs-link" href="#polityka-prywatnosci" data-polityka>Polityce Prywatności</a>. <b class="pnvs-req" aria-hidden="true">*</b></span></label>
+      </div>
+     <div class="ff_submit_btn_wrapper">
+      <button class="ff-btn ff-btn-submit pnvs-btn" type="submit">Umów bezpłatną konsultację</button>
+     </div>
+     <p class="pnvs-ff-note"><span><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Inwestycje powyżej 1000 m² PUM</span></p>
+    </form>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="pnvs-foot">
+ <div class="pnvs-wrap">
+  <p>© <span data-gl-part="dyn-rok">2026</span> Paulina Narloch, NIP 7282839130</p>
+  <nav aria-label="Dokumenty"><a href="#polityka-prywatnosci" data-polityka>Polityka prywatności</a><a href="#ustawienia-cookies" class="wm-zgody-link">Ustawienia cookies</a></nav>
+ </div>
+</footer>
+
+<div class="pnvs-mbar" id="pnvs-mbar"><a class="pnvs-btn" href="#konsultacja" data-cta="pasek-mobile">Umów konsultację</a><a class="pnvs-mbar-tel" href="tel:+48508209789" data-cta="telefon-pasek" aria-label="Zadzwoń: 508 209 789"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg></a></div>
+
+<!-- Polityka prywatności w oknie (bez przechodzenia na podstronę). SZKIC do weryfikacji przez @prawnik i Patryka: pola w nawiasach kwadratowych. -->
+<dialog class="pnvs-modal" id="polityka-prywatnosci" aria-labelledby="pnvs-pp-h" data-gl-part="polityka-modal">
+ <div class="pnvs-modal-head">
+  <h2 class="pnvs-modal-h" id="pnvs-pp-h">Polityka prywatności</h2>
+  <button class="pnvs-modal-x" type="button" data-zamknij aria-label="Zamknij politykę prywatności"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+ </div>
+ <div class="pnvs-modal-body">
+  <p class="pnvs-modal-meta">Wersja z [DATA PUBLIKACJI]. Dotyczy strony [ADRES SUBDOMENY].</p>
+
+  <h3>1. Kto jest administratorem Twoich danych</h3>
+  <p>Administratorem danych jest Paulina Narloch, NIP 7282839130, [ADRES SIEDZIBY]. W sprawach danych osobowych napisz na [ADRES E-MAIL] albo zadzwoń pod numer <a class="pnvs-link" href="tel:+48508209789">508 209 789</a>.</p>
+
+  <h3>2. Jakie dane zbieramy</h3>
+  <ul>
+   <li>Z formularza: imię i numer telefonu.</li>
+   <li>Z rozmowy telefonicznej: informacje o inwestycji, które sam przekażesz.</li>
+   <li>Automatycznie: adres IP, rodzaj urządzenia i przeglądarki, czas wizyty oraz zdarzenia na stronie (np. odtworzenie filmu, wysłanie formularza). Narzędzia analityczne i marketingowe działają dopiero po Twojej zgodzie w banerze cookies.</li>
+  </ul>
+
+  <h3>3. W jakim celu i na jakiej podstawie</h3>
+  <ul>
+   <li>Obsługa zapytania i kontakt w sprawie bezpłatnej konsultacji: art. 6 ust. 1 lit. a RODO (Twoja zgoda w formularzu) oraz lit. b (działania przed zawarciem umowy na Twoje żądanie).</li>
+   <li>Ustalenie, dochodzenie lub obrona roszczeń: art. 6 ust. 1 lit. f RODO (prawnie uzasadniony interes administratora).</li>
+   <li>Statystyki odwiedzin (Google Analytics 4): art. 6 ust. 1 lit. a RODO, tylko po zgodzie na cookies analityczne.</li>
+   <li>Pomiar skuteczności reklam i docieranie z reklamą do osób, które odwiedziły stronę (piksel Meta, Google Ads): art. 6 ust. 1 lit. a RODO, tylko po zgodzie na cookies marketingowe.</li>
+   <li>Działanie i bezpieczeństwo strony (logi serwera, zapamiętanie wyboru w banerze): art. 6 ust. 1 lit. f RODO.</li>
+  </ul>
+
+  <h3>4. Jak długo przechowujemy dane</h3>
+  <p>Dane z formularza przechowujemy do zakończenia rozmów o współpracy, nie dłużej niż [12 MIESIĘCY] od ostatniego kontaktu. Jeśli zawrzemy umowę, dane przechowujemy przez czas jej wykonania i okres przedawnienia roszczeń. Gdy cofniesz zgodę, usuwamy dane, chyba że musimy je zachować do obrony roszczeń. Okres przechowywania plików cookies opisuje baner w ustawieniach cookies.</p>
+
+  <h3>5. Komu przekazujemy dane</h3>
+  <p>Dane przekazujemy tylko podmiotom, które pomagają nam prowadzić stronę, na podstawie umów powierzenia lub własnych regulaminów:</p>
+  <ul>
+   <li>cyber_Folks S.A. (hosting strony i formularza),</li>
+   <li>Webly Mate Sp. z o.o. (obsługa techniczna strony),</li>
+   <li>BunnyWay d.o.o. (hosting filmu, Słowenia),</li>
+   <li>Google Ireland Limited (Google Analytics 4, Google Tag Manager, Google Ads), po Twojej zgodzie,</li>
+   <li>Meta Platforms Ireland Limited (piksel Meta), po Twojej zgodzie.</li>
+  </ul>
+  <p>Google i Meta mogą przekazywać dane do USA. Podstawą jest decyzja Komisji Europejskiej o odpowiednim stopniu ochrony (EU-US Data Privacy Framework) albo standardowe klauzule umowne.</p>
+
+  <h3>6. Twoje prawa</h3>
+  <p>Masz prawo do dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, przeniesienia oraz sprzeciwu wobec przetwarzania opartego na uzasadnionym interesie. Zgodę możesz cofnąć w każdej chwili, bez wpływu na zgodność z prawem przetwarzania przed jej cofnięciem. Zgody na cookies zmienisz w <a class="pnvs-link" href="#ustawienia-cookies" data-zamknij>ustawieniach cookies</a>. Możesz też złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa).</p>
+
+  <h3>7. Czy musisz podać dane</h3>
+  <p>Podanie imienia i numeru telefonu jest dobrowolne, ale bez nich nie oddzwonimy w sprawie konsultacji. Nie podejmujemy wobec Ciebie decyzji opartych wyłącznie na zautomatyzowanym przetwarzaniu.</p>
+
+  <h3>8. Pliki cookies</h3>
+  <p>Strona używa plików cookies niezbędnych do działania i zapamiętania Twojego wyboru w banerze. Cookies analityczne (Google Analytics 4) i marketingowe (piksel Meta, Google Ads) zapisujemy tylko po Twojej zgodzie. Ustawienia możesz zmienić w każdej chwili w banerze albo w przeglądarce.</p>
+ </div>
+ <div class="pnvs-modal-foot"><button class="pnvs-btn" type="button" data-zamknij>Zamknij</button></div>
+</dialog>
+<noscript><style>.pnvs-modal{display:block;position:static;max-width:none;margin:0;border:0}.pnvs-modal-x,.pnvs-modal-foot{display:none}</style></noscript>
+
+</div>
+
+<script>
+(()=>{'use strict';
+const d=document.documentElement;d.classList.add('pnvs-js');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)');
+window.dataLayer=window.dataLayer||[];
+const track=(event,params)=>{window.dataLayer.push(Object.assign({event},params||{}));};
+
+/* 1. Fasada filmu: odtwarzacz ładuje się dopiero po kliknięciu */
+const vsl=document.getElementById('pnvs-vsl');
+if(vsl){
+ const btn=vsl.querySelector('.pnvs-play');
+ btn.addEventListener('click',()=>{
+  const v=document.createElement('video');
+  v.controls=true;v.autoplay=true;v.playsInline=true;v.preload='auto';
+  v.src='https://optymalizacja.patryknocek.pl/assets/video/intro-poziom2.mp4';
+  v.setAttribute('aria-label','Film: optymalizacja projektu deweloperskiego');
+  const sent=new Set();
+  v.addEventListener('play',()=>{if(!sent.has(0)){sent.add(0);track('video_start',{video_title:vsl.dataset.videoTitle});}});
+  v.addEventListener('timeupdate',()=>{if(!v.duration)return;const p=v.currentTime/v.duration*100;[25,50,75,100].forEach(m=>{if(p>=m-0.5&&!sent.has(m)){sent.add(m);track('video_progress',{video_title:vsl.dataset.videoTitle,video_percent:m});}});});
+  btn.replaceWith(v);v.focus();
+ });
+}
+document.querySelectorAll('.pnvs-mini[data-yt]').forEach(b=>b.addEventListener('click',()=>{
+ track('video_start',{video_title:b.dataset.videoTitle});
+ const box=document.createElement('div');box.className=b.className.replace('pnvs-rv','');box.classList.add('is-in');
+ const f=document.createElement('iframe');
+ f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0';
+ f.title='Rekomendacja wideo: Daniel Siwiec';f.allow='autoplay; encrypted-media; picture-in-picture';f.allowFullscreen=true;
+ box.appendChild(f);b.replaceWith(box);f.focus();
+}));
+
+/* 2. Kliknięcia CTA */
+document.querySelectorAll('[data-cta]').forEach(a=>a.addEventListener('click',()=>track('cta_click',{cta_location:a.dataset.cta})));
+
+/* 3. Formularze: walidacja w stylu Fluent Forms, błąd przy polu, fokus na pierwszym błędnym */
+const msgs={imie:'Wpisz swoje imię.',telefon:'Wpisz numer telefonu, pod którym oddzwonię.',zgoda:'Zaznacz zgodę, żebym mógł oddzwonić.'};
+const telOk=s=>{const raw=s.trim(),d=raw.replace(/[\s().-]/g,'');if(/^(\+|00)/.test(d)){const n=d.replace(/^(\+|00)/,'');return /^\d{8,15}$/.test(n);}return /^\d{9}$/.test(d);};
+document.querySelectorAll('.frm-fluent-form').forEach((f,fi)=>{
+ let started=false;
+ f.addEventListener('focusin',()=>{if(!started){started=true;track('form_start',{form_location:f.dataset.formLocation});}});
+ const setErr=(input,msg)=>{
+  const g=input.closest('.ff-el-group');let e=g.querySelector('.error');
+  const id='pnvs-err-'+fi+'-'+input.name;
+  if(msg){g.classList.add('ff-el-is-error');input.setAttribute('aria-invalid','true');input.setAttribute('aria-describedby',id);
+   if(!e){e=document.createElement('div');e.className='error text-danger';e.id=id;g.appendChild(e);}e.textContent=msg;}
+  else{g.classList.remove('ff-el-is-error');input.removeAttribute('aria-invalid');input.removeAttribute('aria-describedby');if(e)e.remove();}
+ };
+ const check=input=>{
+  if(input.type==='checkbox')return input.checked?'':msgs.zgoda;
+  const v=input.value.trim();
+  if(!v)return msgs[input.name];
+  if(input.name==='telefon'&&!telOk(v))return 'Sprawdź numer: 9 cyfr, np. 600 000 000, albo z kierunkowym kraju, np. +49.';
+  return '';
+ };
+ f.querySelectorAll('input').forEach(i=>{
+  i.addEventListener('blur',()=>{if(i.getAttribute('aria-invalid'))setErr(i,check(i));});
+  i.addEventListener('input',()=>{if(i.getAttribute('aria-invalid')&&!check(i))setErr(i,'');});
+  i.addEventListener('change',()=>{if(i.type==='checkbox'&&i.getAttribute('aria-invalid'))setErr(i,check(i));});
+ });
+ f.addEventListener('submit',e=>{
+  e.preventDefault();
+  let first=null;
+  f.querySelectorAll('input[required]').forEach(i=>{const m=check(i);setErr(i,m);if(m&&!first)first=i;});
+  if(first){first.focus();return;}
+  const b=f.querySelector('.ff-btn-submit');b.setAttribute('aria-busy','true');b.textContent='Wysyłam...';
+  /* Makieta: imię tylko w sessionStorage, adres bez danych osobowych. W WP przekierowanie Fluent Forms na /dziekujemy/?wyslano=1. */
+  try{sessionStorage.setItem('pnvs-lead',JSON.stringify({imie:f.querySelector('[name=imie]').value.trim().split(/\s+/)[0].slice(0,40),miejsce:f.dataset.formLocation}));}catch(err){}
+  location.href='dziekujemy.html?wyslano=1';
+ });
+});
+
+/* 4. Pasek na telefonie (formularz albo telefon): chowa się, gdy widać formularz */
+const bar=document.getElementById('pnvs-mbar');
+if(bar&&'IntersectionObserver' in window){
+ const vis=new Map();
+ const watch=[...document.querySelectorAll('.pnvs-ff')];
+ const io=new IntersectionObserver(es=>{es.forEach(e=>vis.set(e.target,e.isIntersecting));bar.classList.toggle('is-hidden',[...vis.values()].some(Boolean));},{threshold:.15});
+ watch.forEach(el=>io.observe(el));
+}
+
+/* 5. Wejścia przy przewijaniu */
+const rv=[...document.querySelectorAll('.pnvs-rv')];
+const showAll=()=>rv.forEach(el=>el.classList.add('is-in'));
+if(reduce.matches||!('IntersectionObserver' in window)){showAll();}
+else{const io2=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){io2.unobserve(e.target);e.target.classList.add('is-in');}}),{threshold:.12,rootMargin:'0px 0px -5% 0px'});rv.forEach(el=>io2.observe(el));}
+reduce.addEventListener('change',e=>{if(e.matches)showAll();});
+
+/* 6. Polityka prywatności w oknie: link z data-polityka albo adres z #polityka-prywatnosci */
+const pp=document.getElementById('polityka-prywatnosci');
+if(pp&&typeof pp.showModal==='function'){
+ let opener=null;
+ const open=e=>{if(e)e.preventDefault();opener=document.activeElement;if(!pp.open)pp.showModal();pp.querySelector('.pnvs-modal-body').scrollTop=0;track('privacy_open');};
+ document.addEventListener('click',e=>{const a=e.target.closest('a[href="#polityka-prywatnosci"]');if(a)open(e);});
+ pp.addEventListener('click',e=>{if(e.target===pp||e.target.closest('[data-zamknij]'))pp.close();});
+ pp.addEventListener('close',()=>{if(opener&&document.contains(opener))opener.focus();});
+ if(location.hash==='#polityka-prywatnosci')open();
+}
+
+})();
+</script>
+<script src="assets/wm-zgody/wm-zgody.min.js" defer></script>
+</body>
+</html>
